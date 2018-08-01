@@ -1,26 +1,19 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+<!--Style:-->
+<!--While getting the right answer is important, we are also interested in how well thought out your-->
+<!--solution is; are there easier, or faster ways? Is the code understandable to another engineer picking-->
+<!--it up? If there are obvious ways it could be abstracted or extended, is it designed to support-->
+<!--that? For example, this N-tuple detection algorithm may end up being used in other contexts (like a-->
+<!--website) and so should be easy to reuse.-->
+<!--Questions?-->
+<!--Some aspects of the problem are intentionally vague. We recommend that you make your own-->
+<!--decisions rather than ask us and wait for an answer. Document any important assumptions that you-->
+<!--make in your solution.-->
 
+How to run the program
 
-Hi there! Welcome to Cloud9 IDE!
+1) Run Solution.java.
 
-To get you started, we included a small hello world application.
+2) Following the prompt lines, enter file names of syns file, file1 and file2
 
-1) Open the hello-world.html file
+3) The percent of tuples in file1 which appear in file2 will be shown in the console
 
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide

@@ -27,6 +27,7 @@ public class Utility {
             }
         }
         
+        //words in different lines might be in the same group, we need to find their common parrent
         for(String key : parent.keySet()) {
             String p = find(parent.get(key), parent);
             parent.put(key, p);
@@ -64,7 +65,14 @@ public class Utility {
         System.out.println("There are " + count + " tuples in file1 appear in file2");
         System.out.println();
         
-        double res = count*1.0 / (sArr2.length - N + 1) * 100;
+        
+        int total = sArr2.length - N + 1;
+        if(total <= 0) {
+            System.out.println("The input files are invalid");
+            return 0;
+        }
+        
+        double res = count*1.0 / total * 100;
         res = Math.round(res * 100.0) / 100.0;
         System.out.println("Based on " + N + " tuples, the percent of tuples in file1 which appear in file2 is " + res + "%");
         

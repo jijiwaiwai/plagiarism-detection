@@ -1,0 +1,20 @@
+Assumptions: 
+1. In the syns.txt, a same word can appear in different lines and if that happens, all the words in these lines are synonyms;
+2. The number of words in file2 must not be smaller than the number of words in file1
+2. In file1 and file2, the input are words sepearte by space and there is no line break;
+3. If the input tuple size is larger than the number of words in file1, the tuple size will be set as the number of words in file1;
+4. The return percentage is rounded to 2 decimal places
+5. Users are prompted to enter the three file name to run the calculation
+
+/**
+ * 1. use union-find to build a hashmap to store each word and its parent synonym(we choose the first word in each line as parent)
+ * 2. replace each word in file1.txt with its parent, replace each word in file2.txt with its parent
+ * 3. use a set to store all tuples in file2.txt
+ * 4. iterate each tuple in file1.txt and check if it is in the set, store it as count
+ * 5. the result is countOfMatch / countOfTuples in file2 
+ */
+ 
+ Time Complexity: O(n1 + n2 + n3)
+ Space Complexity: O(n1 + n2 + n3)
+ 
+ n1, n2, n3 are the number of words in syns.txt, file1.txt, file2.txt respectively;
