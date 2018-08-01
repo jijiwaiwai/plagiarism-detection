@@ -13,7 +13,7 @@ How to run the program
 
 1) Run Solution.java.
 
-2) Following the prompt lines, enter file names of syns file, file1 and file2
+2) Following the prompt lines, enter file names of syns file, file1 and file2. If an invalid file name detected, the user will be asked to re-enter the file name again
 
 3) The percent of tuples in file1 which appear in file2 will be shown in the console
 
